@@ -5,5 +5,5 @@ Q: Currently, you can only select adjacent pairs of nodes to check. Would the pr
 A: No.
 ## Exercise 2
 Q: The equation currently being used for confidence is 1-(1/E)^n, where E is the number of edges in the graph, and n is the number of trials run. Is this the correct equation? Why is there no prior?
-A: No.
-###### The smallest heading
+
+A: Yes. Because in every round of test, the probobility of prvoer cheat to past is inversely proportional to the cardinal of Graph edge.
